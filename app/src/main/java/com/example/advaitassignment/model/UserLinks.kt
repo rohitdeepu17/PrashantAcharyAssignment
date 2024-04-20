@@ -1,4 +1,4 @@
-package com.example.paging3demo.model
+package com.example.advaitassignment
 
 import kotlinx.serialization.Serializable
 

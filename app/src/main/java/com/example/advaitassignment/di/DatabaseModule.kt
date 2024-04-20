@@ -2,8 +2,8 @@ package com.example.advaitassignment.di
 
 import android.content.Context
 import androidx.room.Room
+import com.example.advaitassignment.Constants.UNSPLASH_DATABASE
 import com.example.advaitassignment.data.local.UnsplashDatabase
-import com.example.paging3demo.util.Constants.UNSPLASH_DATABASE
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

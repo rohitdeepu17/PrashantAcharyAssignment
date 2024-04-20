@@ -1,7 +1,7 @@
 package com.example.advaitassignment.model
 
 import androidx.room.Embedded
-import com.example.paging3demo.model.UserLinks
+import com.example.advaitassignment.UserLinks
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

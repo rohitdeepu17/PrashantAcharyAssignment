@@ -5,11 +5,11 @@ import androidx.paging.LoadType
 import androidx.paging.PagingState
 import androidx.paging.RemoteMediator
 import androidx.room.withTransaction
+import com.example.advaitassignment.Constants.ITEMS_PER_PAGE
 import com.example.advaitassignment.data.local.UnsplashDatabase
 import com.example.advaitassignment.data.remote.UnsplashApi
 import com.example.advaitassignment.model.UnsplashImage
 import com.example.advaitassignment.model.UnsplashRemoteKeys
-import com.example.paging3demo.util.Constants.ITEMS_PER_PAGE
 
 @ExperimentalPagingApi
 class UnsplashRemoteMediator(

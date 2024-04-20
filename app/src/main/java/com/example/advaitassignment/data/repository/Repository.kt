@@ -4,11 +4,11 @@ import androidx.paging.ExperimentalPagingApi
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
+import com.example.advaitassignment.Constants.ITEMS_PER_PAGE
 import com.example.advaitassignment.data.local.UnsplashDatabase
 import com.example.advaitassignment.data.paging.UnsplashRemoteMediator
 import com.example.advaitassignment.data.remote.UnsplashApi
 import com.example.advaitassignment.model.UnsplashImage
-import com.example.paging3demo.util.Constants.ITEMS_PER_PAGE
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
