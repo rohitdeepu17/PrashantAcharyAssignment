@@ -7,7 +7,7 @@ import com.example.advaitassignment.data.local.dao.UnsplashRemoteKeysDao
 import com.example.advaitassignment.model.UnsplashImage
 import com.example.advaitassignment.model.UnsplashRemoteKeys
 
-@Database(entities = [UnsplashRemoteKeys::class, UnsplashImage::class], version = 1)
+@Database(entities = [UnsplashRemoteKeys::class, UnsplashImage::class], version = 1, exportSchema = false)
 abstract class UnsplashDatabase: RoomDatabase() {
     abstract fun unsplashImageDao(): UnsplashImageDao
     abstract fun unsplashRemoteKeysDao(): UnsplashRemoteKeysDao
