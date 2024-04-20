@@ -1,8 +1,7 @@
-package com.example.advaitassignment.model
+package com.example.advaitassignment.di
 
 import com.example.advaitassignment.data.remote.UnsplashApi
 import com.example.paging3demo.util.Constants.BASE_URL
-import com.google.gson.Gson
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import dagger.Module
 import dagger.Provides
